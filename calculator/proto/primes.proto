@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+package calculator;
+
+option go_package="github.com/alperergul/gRPC/calculator/proto";
+
+
