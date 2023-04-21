@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+package calculator;
+
+option go_package = "github.com/alperergul/gRPC/calculator/proto";
+
+message SqrtRequest {
+    int32 number = 1;
+}
+
+
+message SqrtResponse {
+    double result = 1;
+}
+
